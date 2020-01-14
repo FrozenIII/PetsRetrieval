@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "i-divider": "../../dist/divider/index",
+    "i-icon": "../../dist/icon/index",
+    "i-button": "../../dist/button/index",
+    "canvas-share": "/components/canvas-share/index",
+    "i-input": "../../dist/input/index",
+    "i-panel": "../../dist/panel/index",
+    "floatbut": "/components/floatbut/floatbut"
+  }
+}

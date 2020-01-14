@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="img_wrap">
+    <image src="https://dhhddd.mynatapp.cc/image_show?path=init_image/main.jpg" mode='widthFix' />
+</view>
+
+
+<view class="container">
+<i-button bind:click="doSearchImage" shape="circle" inline>
+<i-icon type="search" size="20"/>
+宠 物 检 索</i-button>
+</view>
+
+<brickLayout
+  dataSet="{{dataSet}}"
+  option="{{brick_option}}"
+  bind:tapCard="tapCard"
+  bind:tapLike="tapLike"
+  bind:tapUser="tapUser"
+  bind:onCardExpanded="onCardExpanded"
+/>

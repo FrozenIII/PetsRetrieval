@@ -1,0 +1,84 @@
+<!--pages/Searching/Searching.wxml-->
+<view class="image-container">
+
+  <view class="origin-image">
+    <image class="taken-image" src="{{imgUrl}}" mode="aspectFit" bindtap="reUpload"></image>
+  </view>
+
+    <i-input class="input" value="{{ queryText }}" placeholder="可以输入英文关键词搜索图片噢(仅支持英文)" bind:change="bindKeyInput"  right mode="wrapped"/>
+
+    <view class="allBtn">
+<i-button class="down" bind:click="doDownload" shape="circle" inline="true" size="small">
+<i-icon type="picture" size="17"/>
+下 载
+</i-button>
+
+<i-button class="search" bind:click="upload" shape="circle" inline="true" size="small">
+<i-icon type="search" size="17"/>
+检 索
+</i-button>
+
+
+<i-button class="share" bind:click="doShare" shape="circle" inline="true" size="small">
+<i-icon type="share" size="17"/>
+分 享
+</i-button>
+</view>
+
+  <view class="i-divider-mart">
+    <i-divider content="相 关 照 片" ></i-divider>
+  </view>
+
+
+<view class="description_wrapper" style="display:{{display}}">
+<view class='txt'>
+    <view>点击照片区域上传图片进行检索</view>
+</view>
+<view class='txt'>
+    <view>或者输入关键词搜索照片</view>
+</view>
+<view class='txt'>
+    <view>我们也支持照片+关键词搜索噢</view>
+</view>
+<view class='txt'>
+    <view>如果你没有萌宠照片</view>
+</view>
+<view class='txt'>
+    <view>我们欢迎你选择下载噢</view>
+</view>
+</view>
+
+ <scroll-view class='main' scroll-y='true' style="height:{{windowHeight}}px" bindscrolltolower='loadMoreImages'>
+    <view class="free-WaterfallFlow">
+      <block>
+        <view class="flex-wrap" wx:for="{{dataList}}" wx:key='{{item.src}}' 
+        wx:if="{{item.id%2!=''}}">
+          <image mode="widthFix" src="{{item.src}}" data-index='{{index}}' bindtap='previewImg'></image>
+          <text>{{item.caption}}</text>
+        </view>
+      </block>
+      <block>
+        <view class="flex-wrap" wx:for="{{dataList}}" wx:key='{{item.src}}'
+        wx:if="{{item.id%2==''}}">
+          <image mode="widthFix" src="{{item.src}}" data-index='{{index}}' bindtap='previewImg'></image>
+          <text >{{item.caption}}</text>
+        </view>
+      </block>
+    </view>
+    </scroll-view>
+
+</view>
+
+<template name="item">
+  <view class="item">
+    <image class="item-img" src="{{iImgUrl}}" mode="widthFix"></image>
+    <view class="item-title-box">
+    {{title}}
+    </view>
+  </view>
+
+</template>
+
+<canvas-share bindclose="close" url="{{url}}" crop_width="{{crop_width}}" crop_height="{{crop_height}}" textArr="{{textArr}}" canvasWidth="{{canvasWidth}}" canvasHeight="{{canvasHeight}}" visible="{{visible}}" />
+
+<floatbut backTop="{{backTop}}"></floatbut> 
