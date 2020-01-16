@@ -17,11 +17,11 @@ components/float-button  Float button.
 dist/  A set of iview utils.   
      
 
-### Screenshots
-![image](https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/1.png){:height="30%" width="30%"}
-![image](https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/2.png){:height="30%" width="30%"}
-![image](https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/3.png){:height="30%" width="30%"}
-![image](https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/4.jpeg){:height="30%" width="30%"}
+//### Screenshots
+//![image](https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/1.png =100x)
+//![image](https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/2.png){:height="30%" width="30%"}
+//![image](https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/3.png){:height="30%" width="30%"}
+//![image](https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/4.jpeg){:height="30%" width="30%"}
 
 
 
