@@ -6,13 +6,22 @@ It supports three kinds of Searching.
     1. Img -> Imgs  
     2. Precise descriptions -> Imgs  
     3. Descriptions + Img -> Imgs 
+    
+    
+### Pages & Functions
+pages/index  Starting page.   
+pages/Searching  Utilized for three kinds searching function.   
+pages/poster  Use canvas to draw a poster for image and it's caption.    
+components/canvas-share  Used for drawing a poster.   
+components/float-button  Float button.   
+dist/  A set of iview utils.   
      
 
 ### Screenshots
-![image](https://github.com/FrozenIII/PetsRetrieval/tree/master/wxapplet/images/1.png)
-![image](https://github.com/FrozenIII/PetsRetrieval/tree/master/wxapplet/images/2.png)
-![image](https://github.com/FrozenIII/PetsRetrieval/tree/master/wxapplet/images/3.png)
-![image](https://github.com/FrozenIII/PetsRetrieval/tree/master/wxapplet/images/4.jpeg)
+![image](https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/1.png){:height="30%" width="30%"}
+![image](https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/2.png){:height="30%" width="30%"}
+![image](https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/3.png){:height="30%" width="30%"}
+![image](https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/4.jpeg){:height="30%" width="30%"}
 
 
 
