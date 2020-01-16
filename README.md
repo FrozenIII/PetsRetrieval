@@ -59,7 +59,7 @@ python  -um RetrievalPet.examples.test_extract2
   ```
  python  -um RetrievalPet.examples.PCA
   ```
-####T est with DBA
+#### Test with DBA
   ```
  python  -um RetrievalPet.examples.DBA
   ```
