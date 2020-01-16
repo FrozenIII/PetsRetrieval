@@ -9,10 +9,10 @@ It supports three kinds of Searching.
      
 
 ### Screenshots
-![image](https://github.com/FrozenIII/PetsRetrieval/new/master/wxapplet/images/1.png)
-![image](https://github.com/FrozenIII/PetsRetrieval/new/master/wxapplet/images/2.png)
-![image](https://github.com/FrozenIII/PetsRetrieval/new/master/wxapplet/images/3.png)
-![image](https://github.com/FrozenIII/PetsRetrieval/new/master/wxapplet/images/4.jpeg)
+![image](https://github.com/FrozenIII/PetsRetrieval/tree/master/wxapplet/images/1.png)
+![image](https://github.com/FrozenIII/PetsRetrieval/tree/master/wxapplet/images/2.png)
+![image](https://github.com/FrozenIII/PetsRetrieval/tree/master/wxapplet/images/3.png)
+![image](https://github.com/FrozenIII/PetsRetrieval/tree/master/wxapplet/images/4.jpeg)
 
 
 
