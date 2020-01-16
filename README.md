@@ -68,7 +68,7 @@ python  -um RetrievalPet.examples.test_extract2
  python  -um RetrievalPet.examples.QE
   ```
 #### Test with IR2
-   The CDVS extractor is from [cdvs](https://github.com/WendyDong/ImageRetrieval_DF_CDVS)
+   The CDVS extractor is from [cdvs](https://github.com/WendyDong/ImageRetrieval_DF_CDVS).
   ```
  python  -um RetrievalPet.examples.IR2
   ```
