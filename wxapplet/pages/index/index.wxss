@@ -1,0 +1,31 @@
+/**index.wxss**/
+page{
+  background: #FFFAF0
+}
+.img_wrap{
+  display: flex;
+  flex-direction: row;
+  margin-top: 80rpx;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+.container{
+  margin-top: -80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  height: auto;
+  padding: 0 0 0 40rpx;
+}
+
+.button-text {
+  width: 100%;
+  line-height: 52px;
+  font-size: 34rpx;
+  color: #007aff;
+}
+

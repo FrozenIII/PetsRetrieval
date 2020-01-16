@@ -1,0 +1,8 @@
+<view class='float_box'>
+    <view>
+       <view class='float_main' catchtap='itemclick' wx:if="{{backTop ==true}}">
+         <image class='float_img' src='../images/top.png' />
+      </view> 
+    </view>
+</view>
+

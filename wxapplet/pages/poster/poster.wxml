@@ -1,0 +1,10 @@
+<!--pages/poster/poster.wxml-->
+<view class='poste_box' id='canvas-container'>
+  <canvas canvas-id="myCanvas" style="width:{{canvasWidth}}px;height:{{canvasHeight}}px;" disable-scroll="true" />
+</view>
+
+  <view class="buttons">
+    <i-button bind:click="saveShareImg" shape="circle" inline>
+    <i-icon type="share" size="20"/>
+保  存  </i-button>
+  </view>
