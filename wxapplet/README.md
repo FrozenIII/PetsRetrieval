@@ -15,7 +15,11 @@ pages/poster  Use canvas to draw a poster for image and it's caption.
 components/canvas-share  Used for drawing a poster.   
 components/float-button  Float button.   
 dist/  A set of iview utils.   
-     
+
+
+### Screenshots
+<img width="150" height="150" src="https://img-blog.csdn.net/20161028230559575"/>
+
 
 ### References
 It's the first time I've developed a wxapplet. And numerous blogs and github repositories are helpful to me!  
