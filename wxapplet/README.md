@@ -9,12 +9,12 @@ It supports three kinds of Searching.
     
     
 ### Pages & Functions
-pages/index  Starting page.   
-pages/Searching  Utilized for three kinds searching function.   
-pages/poster  Use canvas to draw a poster for image and it's caption.    
-components/canvas-share  Used for drawing a poster.   
-components/float-button  Float button.   
-dist/  A set of iview utils.   
+pages/index:  Starting page.   
+pages/Searching:  Utilized for three kinds searching function.   
+pages/poster:  Use canvas to draw a poster for image and it's caption.    
+components/canvas-share:  Used for drawing a poster.   
+components/float-button:  Float button.   
+dist/:  A set of iview utils.   
 
 
 ### Screenshots
