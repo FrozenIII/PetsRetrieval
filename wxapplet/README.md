@@ -18,7 +18,12 @@ dist/  A set of iview utils.
 
 
 ### Screenshots
-<img width="150" height="150" src="https://img-blog.csdn.net/20161028230559575"/>
+<img width="30%" height="30%" src="https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/1.png"/>
+<img width="30%" height="30%" src="https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/2.png"/>
+<img width="30%" height="30%" src="https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/3.png"/>
+<img width="30%" height="30%" src="https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/4.png"/>
+<img width="30%" height="30%" src="https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/5.jpeg"/>
+
 
 
 ### References
