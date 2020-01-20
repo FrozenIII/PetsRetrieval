@@ -22,10 +22,7 @@ dist/:  A set of iview utils.
 
 
 ### Demo
-<video id="video" controls="">
-      <source id="mp4" src="https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/demo.mp4">
-      <p>Your user agent does not support the HTML5 Video element.</p>
-</video>
+https://drive.google.com/open?id=1V6ojFh11P5-IdWvHMePKjRyx4AiOr9Wz
 
 
 ### References
