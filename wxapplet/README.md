@@ -21,6 +21,11 @@ dist/:  A set of iview utils.
 <img width="25%" height="25%" src="https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/1.png"/><img width="25%" height="25%" src="https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/2.png"/><img width="25%" height="25%" src="https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/3.png"/><img width="25%" height="25%" src="https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/4.jpeg"/>
 
 
+### Demo
+<video id="video" controls="">
+      <source id="mp4" src="https://github.com/FrozenIII/PetsRetrieval/blob/master/wxapplet/images/demo.mp4">
+      <p>Your user agent does not support the HTML5 Video element.</p>
+</video>
 
 
 ### References
